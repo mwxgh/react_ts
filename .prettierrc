@@ -1,0 +1,13 @@
+{
+    "trailingComma": "all",
+    "tabWidth": 2,
+    "printWidth": 80,
+    "useTabs": false,
+    "semi": false,
+    "singleQuote": true,
+    "tsxBracketSameLine": true,
+    "tailwindConfig": "./tailwind.config.js",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    }
+}
