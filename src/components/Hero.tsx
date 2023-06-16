@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unknown-property */
 import { styles } from '../styles'
 import { BackgroundCanvas } from './canvas'
+import { moon } from '../assets'
 
 const Hero = () => {
   return (
@@ -23,9 +24,9 @@ const Hero = () => {
           </p>
         </div>
       </div>
-
-      <div className="h-80 w-80">
+      <div className="ml-80 h-full w-full">
         <BackgroundCanvas />
+        <img src={moon} alt="" />
       </div>
     </section>
   )
